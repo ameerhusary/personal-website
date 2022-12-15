@@ -288,6 +288,12 @@ header {
     }
 }
 
+.particles-js{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
 
 
 /*  My services section  */
