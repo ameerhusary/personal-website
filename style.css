@@ -192,11 +192,11 @@ strong { font-weight: var(--fw-bold) }
 
 #section10 { background: url(https://www.nxworld.net/example/css-scroll-down-button/bg09.jpg) center center / cover no-repeat;}
 #section10 a {
-    padding-top: 60px;
+    padding-top: 100px;
   }
   #section10 a span {
     position: absolute;
-    top: 500px;
+    top: 600px;
     left: 50%;
     width: 30px;
     height: 50px;
@@ -413,6 +413,7 @@ header.sticky{
 
 .nav__link:hover {
     color: var(--clr-accent);
+    font-size: var(--fs-h3);
 }
 
 .nav-toggle {
@@ -497,6 +498,8 @@ header.sticky{
 .section__subtitle--intro {
     display: inline-block;
 }
+
+
 
 @media (min-width: 600px) {
     .intro {
