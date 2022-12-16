@@ -17,13 +17,26 @@
     </head>
     <body>
         <header>
-            <div class = "logo">
-                <img src="img/ameer husary.png" alt="">
+            <div>
+                <div class = "logo">
+                    <img src="img/ameer husary.png" alt="">
+                </div>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">Story</a></li>
+                        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Interests</a></li>
+                        <li class="nav__item"><a href="#footer" class="nav__link">Contact</a></li>
+
+                    </ul>
+                </nav>
             </div>
-            <button class="nav-toggle" aria-label="toggle navigation">
+            <!-- <button class="nav-toggle" aria-label="toggle navigation">
                 <span class="hamburger"></span>
-            </button>
-            <nav class="nav">
+            </button> -->
+            <!-- <nav class="nav">
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
                     <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
@@ -31,12 +44,15 @@
                     <li class="nav__item"><a href="#projects" class="nav__link">My Projects</a></li>
                     <li class="nav__item"><a href="#work" class="nav__link">My Interests!</a></li>
                 </ul>
-            </nav>
+            </nav> -->
         </header>
 
         <div id="particles-js">
             <script src="particles.js"></script>
             <script src="app.js"></script>
+            <section id="section10" class="demo">
+                <a href="#services"><span></span></a>
+            </section>
         </div>
 
          <!-- Introduction -->
@@ -46,7 +62,15 @@
             </h1>
             <p class="section__subtitle section__subtitle--intro">Computer Scientist</p>
             <img src="img/Ameer pic.jpg" alt="a picture of Ameer Husary smiling" class="intro__img">
+
+            
         </section>
+
+        <!-- <section id="section10" class="demo">
+            <a href="#services"><span></span>Scroll</a>
+        </section> -->
+        <!-- <a href="#work" class="btn2">V</a> -->
+
         
 
         <!-- My services -->
@@ -54,7 +78,7 @@
             <h2 class="section__title section__title--services">What I do</h2>
             <div class="services">
                 <div class="service">
-                    <h3>Front-end Design + Development</h3>
+                    <h3>Full Stack Development</h3>
                     <p>I am able to use HTML, CSS, and JS to design, create, and develop well-designed and interactive websites.</p>
                 </div> <!-- / service -->
                 
@@ -70,18 +94,26 @@
                     that will preform their specific tasks and run as efficiently as possible. 
                 </p>
             </div> <!-- / service -->
+
             
-            <a href="#projects" class="btn">My Work</a>
+            
+            <section id="section07" class="demo">
+                <a href="#projects">
+                    <span></span>
+                    <span></span>
+                    <span></span>My Work</a>
+            </section>
+            <!-- <a href="#work" class="btn">My Work</a> -->
         </section>
 
          <!-- About me -->
          <section class="about-me" id="about">
             <h2 class="section__title section__title--about">Who I am</h2>
-            <p class="section__subtitle section__subtitle--about">Designer & developer based out of Atlanta</p>
+            <p class="section__subtitle section__subtitle--about">Software developer based out of Atlanta</p>
             
             <div class="about-me__body">
-                <p>My name is Ameer Husary, and I am a senior at Emory University majoring in Computer Science with a minor in Quantitative Sciences. I find the field of Computer Science to be very interesting, and I always seek opportunities to contribute to society, challenge my curiosity, and enhance my skills.</p>
-                <p>I am proficient in Java, R, C#, HTML, CSS, Javascript, Python, and SQL. I am currently interested in software engineering and VR.</p>
+                <p>My name is Ameer Husary, and I am a senior at Emory University majoring in Computer Science with a minor in Data Science. I find the field of Computer Science to be very interesting, and I always seek opportunities to contribute to society, challenge my curiosity, and enhance my skills.</p>
+                <p>I am proficient in Java, Python, R, C#, C, HTML, CSS, JavaScript, and SQL. I am currently interested in software engineering and VR.</p>
             </div>
             
             <img src="img/IG pic.jpg" alt="Ameer with glasses" class="about-me__img">
@@ -91,18 +123,26 @@
         <section class="my-services" id="projects">
             <h2 class="section__title section__title--services">My Projects</h2>
             <div class="services">
+               
                 <div class="service">
-                    <img src="img/PLYR Game Center Logo.png" alt="PLYR Logo" class="about-me__img">
+                    <img src="img/K-wai.png" alt="K-Wai Logo" class="img2">
+                    <h3>K-Wai audioVisualizer</h3>
+                    <p>Windows | MAC</p>
+                    <a href="https://ameerhusary.github.io/K-WAi/" class = "btn">Explore</a>
+                </div> <!-- / service -->
+
+                <div class="service">
+                    <img src="img/controller.png" alt="PLYR Logo" class="img2">
                     <h3>PLYR Game Center</h3>
                     <p>JAR File</p>
                     <a href="data/PLYR Game Center.jar" download="PLYR Game Center.jar" class = "btn">Download</a>
                 </div> <!-- / service -->
-               
+
                 <div class="service">
-                    <img src="img/figma.png" alt="K-Wai Logo" class="about-me__img">
-                    <h3>K-Wai audioVisualizer</h3>
-                    <p>Windows | MAC</p>
-                    <a href="https://ameerhusary.github.io/K-WAi/" class = "btn">Explore</a>
+                    <img src="img/spotify.png" alt="K-Wai Logo" class="img2">
+                    <h3>Song Popularity Prediction</h3>
+                    <p>Best Project Award</p>
+                    <a href="data/project report.pdf" download="project.pdf" class = "btn">Read</a>
                 </div> <!-- / service -->
             </div> <!-- / services -->
         </section>
@@ -175,7 +215,7 @@
         </section>
 
          <!-- Footer -->
-         <footer class = "footer">
+         <footer class = "footer" id="footer">
             <!-- replace with your own email address -->
             <a href="mailto:ameerhusary04@gmail.com" class="footer__link">ameerhusary04@gmail.com</a>
             <ul class="social-list">
@@ -192,5 +232,11 @@
             </ul>
         </footer>
         <script src="index.js"></script>
+        <script type="text/javascript">
+            window.addEventListener("scroll", function(){
+                var header = document.querySelector("header");
+                header.classList.toggle("sticky", window.scrollY > 0)
+            })
+        </script>
     </body>
 </html>
