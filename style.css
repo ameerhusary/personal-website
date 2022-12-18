@@ -497,7 +497,7 @@ header.sticky{
 
 .intro__img {
     box-shadow: var(--bs);
-    position: absolute;
+    position: fixed;
 }
 
 .section__subtitle--intro {
