@@ -102,7 +102,7 @@ strong { font-weight: var(--fw-bold) }
     letter-spacing: 2px;
     font-weight: var(--fw-bold);
     border-radius: 8px;
-    margin-bottom: 2.5em;
+    margin-bottom: 5em;
     transition: transform 200ms ease-in-out;
 }
 
