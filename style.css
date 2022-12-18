@@ -362,6 +362,8 @@ header.sticky{
     float: right;
     position: relative;
     left: 680px;
+    margin: 0 auto;
+    display: table;
     /* position: fixed;
     background: var(--clr-dark);
     color: var(--clr-light);
@@ -575,7 +577,7 @@ header.sticky{
 .service {
     max-width: 310px;
     margin: 0 auto;
-    margin-bottom: 2.5em;
+    margin-bottom: 3em;
 }
 
 
