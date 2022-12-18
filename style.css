@@ -572,9 +572,9 @@ header.sticky{
 }
 
 .service {
-    margin-bottom: 5em;
     max-width: 310px;
-/*     margin: 0 auto; */
+    margin: 0 auto;
+    margin-bottom: 3em;
 }
 
 
