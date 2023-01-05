@@ -501,7 +501,7 @@ header.sticky{
 
 .intro__img {
     box-shadow: var(--bs);
-    max-height: 70%;
+    height: 70%;
 }
 
 .section__subtitle--intro {
@@ -525,6 +525,7 @@ header.sticky{
     .intro__img {
         grid-area: img;
         min-width: 250px;
+        height: 77%;
         position: relative;
         z-index: 2;
     }    
@@ -535,7 +536,7 @@ header.sticky{
         grid-row: 2;
         text-align: right;
         position: relative;
-        top: -6.0em; 
+        top: -35%; 
         left: -1.5em;
         width: calc(100% + 1.5em);
     }
