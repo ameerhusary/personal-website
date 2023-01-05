@@ -502,7 +502,6 @@ header.sticky{
 .intro__img {
     box-shadow: var(--bs);
     height: 70%;
-    z-index: 2;
 }
 
 .section__subtitle--intro {
